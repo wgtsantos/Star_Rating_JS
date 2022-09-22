@@ -1,0 +1,41 @@
+main {
+  border: none;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "estrela";
+  src: url(icomoon.woff);
+}
+
+.elemento { 
+  display: flex;
+ }
+
+.star {
+  font-family: "estrela" !important;
+  font-size: 80px; 
+  color: #d1d1d1;
+  font-style: normal; 
+  font-weight: normal; 
+  font-variant: normal;
+  text-transform: none; 
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.star::before { 
+  content: "\e9d9"; 
+}
+.star.on { 
+  color: #ffe000; 
+}
+
+#msg {
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
