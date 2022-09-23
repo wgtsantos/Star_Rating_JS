@@ -118,7 +118,8 @@ classificar({
     if(stars == 5){
       document.getElementById('msg').innerHTML += "<img src='img/icons_oti.png' alt='Ótimo'/>";
     }
-    
+
+    document.getElementById('btn').innerHTML = "<button type='button' onclick='location.reload()'> REAVALIAR </button>";
   }
 });
 
