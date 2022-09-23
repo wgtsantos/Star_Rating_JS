@@ -1,6 +1,10 @@
 main {
-  border: none;
+  width: 400px;
   margin: 0 auto;
+}
+
+main h2 {
+  text-align: center;
 }
 
 @font-face {
@@ -20,7 +24,7 @@ main {
   font-weight: normal; 
   font-variant: normal;
   text-transform: none; 
-  line-height: 1;
+  line-height: 2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: pointer;
@@ -29,13 +33,21 @@ main {
 .star::before { 
   content: "\e9d9"; 
 }
-.star.on { 
-  color: #ffe000; 
+
+.star.onp { color: #d30000; }
+.star.onr { color: #ff2f00; }
+.star.onm { color: #ff8c00; }
+.star.onb { color: #ffe000; }
+.star.ono { color: #1aff00; }
+
+.star.off {
+pointer-events: none;
 }
 
 #msg {
   margin-top: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: bolder;
+  text-align: center;
 }
