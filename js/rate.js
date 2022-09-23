@@ -98,9 +98,9 @@ classificar({
   click : (stars) => { 
     // alert(stars); 
     if(stars == 1) {
-      document.getElementById('msg').innerHTML = "Você avaliou com " + stars + " estrela";
+      document.getElementById('msg').innerHTML = "Você avaliou com " + stars + " estrela!";
     } else {
-      document.getElementById('msg').innerHTML = "Você avaliou com " + stars + " estrelas";
+      document.getElementById('msg').innerHTML = "Você avaliou com " + stars + " estrelas!";
     }
     
     if(stars == 1){
